@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body{
+    font-family: 'Pixelify Sans', cursive;
+    background-color: #FAF2D3;
+    background-image: url("https://i.pinimg.com/564x/32/b3/dd/32b3dd9ab04b94d686d9da7675cbd62d.jpg");
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+
+}
+
+#seleccionar-mascota {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+#titulo{
+    
+    color: hsl(194, 91%, 48%) ;
+    width: 425px;
+    height: 53px;
+    background-color: #F4E869;
+    font-size: 36px;
+}
+.subtitulo{
+    font-size: 25px;
+    
+}
+
+.tarjetas, .botones{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon{
+    width: 300px;
+    height: 190px;
+    background: #5CD2E6;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.tarjeta-de-mokepon img{
+    
+    height: 174px;
+}
+
+.botones{
+    background: #5CD2E6;
+    border-radius: 20px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-top: 20px;
+    box-sizing: border-box;
+   
+}
+
+
+
+#seleccionar-ataque{
+  
+    flex-direction: column;
+    align-items: center;
+}
+#mensajes{
+    margin-top: 20px;
+    background-color: #FAF2D3;
+    border-radius: 21px;
+    height: 90px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-de-ataques{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+   grid-template-columns: 1fr 1fr;;
+    column-gap: 200px;
+
+
+}
+#caja-uno{
+    
+    background-color: #FAF2D3; 
+    border-radius: 21px;
+    margin-top: 50px;
+}
+
+#caja-dos{
+    
+    background-color: #FAF2D3; 
+    border-radius: 21px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 800px){
+.tarjetas, .botones{
+    flex-direction: column;
+
+}
+
+
+}
+input{
+    display: none;
+}
+input:hover + label{
+	background-color: #F4E869;
+}
+input:checked + label{
+	background-color: #F4E869;
+    color: #5CD2E6;
+}
+ 
