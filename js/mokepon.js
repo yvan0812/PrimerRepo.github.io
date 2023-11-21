@@ -142,17 +142,8 @@ function ExtraerAtaque(mascotaJugador){
             
         }
     
-    }
-
-    console.log(ataque)
+    }   
 }
-
-
-
-
-
-
-
 function seleccionarMascotaEnemigo() {
     let mascotaAleatoria = aleatorio(0,mokepones.length -1)
  
