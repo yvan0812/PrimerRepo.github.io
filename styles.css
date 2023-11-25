@@ -62,8 +62,12 @@ body{
     box-sizing: border-box;
    
 }
-
-
+.tarjeta-ataques{
+    border-radius: 20px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
 
 #seleccionar-ataque{
   
