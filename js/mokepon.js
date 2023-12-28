@@ -95,7 +95,7 @@ class Mokepon {
 
 }
 
-//datos mokepones jugador
+//datos mokepones jugador.
 
 let hipodoge    = new Mokepon("Hipodoge", "./recursos/mokepons_mokepon_hipodoge_attack.png", 5, "./recursos/hipodoge.png")
 let capipepo    = new Mokepon("Capipepo", "./recursos/mokepons_mokepon_capipepo_attack.png", 5, "./recursos/capipepo.png")
@@ -105,7 +105,7 @@ let tucapalma   = new Mokepon("Tucapalma", "./recursos/mokepons_mokepon_tucapalm
 let langostelvis = new Mokepon("Langostelvis", "./recursos/mokepons_mokepon_langostelvis_attack.png", 5,  "./recursos/langostelvis.png"
 )
 
-//datos mokepones enemigo
+//datos mokepones enemigo.
 
 let hipodogeEnemigo= new Mokepon("Hipodoge", "./recursos/mokepons_mokepon_hipodoge_attack.png", 5, "./recursos/hipodoge.png")
 let capipepoEnemigo= new Mokepon("Capipepo", "./recursos/mokepons_mokepon_capipepo_attack.png", 5, "./recursos/capipepo.png")
