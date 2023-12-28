@@ -22,7 +22,7 @@ body{
     
     color: hsl(194, 91%, 48%) ;
     width: 425px;
-    height: 53px;
+    height: 100px;
     background-color: #F4E869;
     font-size: 36px;
 }
@@ -107,7 +107,41 @@ body{
     border-radius: 21px;
     margin-top: 50px;
 }
+#ver-mapa{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
 
+#ver-mapa button{
+
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    margin: 10px 0;
+    background: #5CD2E6;
+    border-radius: 20px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+.botonesMovimiento{
+    display: grid;
+    flex-direction: row;
+    background: #5CD2E6;
+    border-radius: 20px;
+    font-family: 'Pixelify Sans', cursive;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+ 
 
 @media (max-width: 1200px){
 .tarjetas, .botones{
